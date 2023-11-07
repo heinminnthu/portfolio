@@ -1,0 +1,98 @@
+html, body, h1, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f5a623;
+}
+
+section {
+    text-align: center;
+    padding: 100px 0;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#home {
+    background-color: #f5a623;
+}
+
+.intro {
+    text-align: center;
+}
+
+#about, #education, #skills, #contact {
+    background-color: lightblue;
+}
+
+.education-item, .skills-item {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.education-item img, .skills-item img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.education-item img:hover, .skills-item img:hover {
+    transform: scale(1.1);
+}
+
+.education-item p, .skills-item p {
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+#contact {
+    background-color: #4a90e2;
+}
+
+.contact-info {
+    list-style: none;
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+}
+
+.contact-info li {
+    margin-bottom: 15px;
+}
